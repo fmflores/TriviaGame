@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../images/theofficebg.jpg");
+    background-size: cover;
+}
+#div-start {
+    background-image: url("../images/blackboard.jpg");
+    margin-left: 4%;
+    margin-top: 3%;
+    height: 90vh;
+    text-align: center;
+    overflow: auto;
+    color: white;
+}
+
+.img-fluid {
+    width: 60%;
+    height: auto;
+}
+
+#start-button {
+    padding: 0 1.5% 0 1.5%;
+    font-size: 1em;
+}
+
