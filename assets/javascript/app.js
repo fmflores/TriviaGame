@@ -30,12 +30,14 @@ var questionsArr = [{
 }
 ];
 let counter = 0;
-let time = 60;
+let time = 45;
 let right = 0;
 let wrong = 0;
 let timer;
 
 //init game function
+$("#lose-image").hide();
+$("#win-image").hide();
 
 function init(){
     if(counter === questionsArr.length){
@@ -85,5 +87,12 @@ function count(){
 
 function endGame() {
     clearInterval(timer)
-    $(".questions").html(`<h1>Right: ${right} Wrong:${wrong}   YOU ${right>wrong? 'WIN!': 'LOSE!'}</h1>`)
+    $(".questions").html(`<h1>Right: ${right} <br/> Wrong: ${wrong} <br/>  YOU ${right>wrong? 'WIN!': 'LOSE!'}</h1>`)
+    if (right > wrong) {
+        $("#lose-image").hide();
+        $("#win-image").show();
+    } else {
+        $("#lose-image").show();
+        $("#win-image").hide();
+    }
 }

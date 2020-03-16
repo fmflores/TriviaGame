@@ -2,6 +2,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -11,7 +12,11 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-5" id="div-start">
-                <img src="assets/images/the-office-sign.png" class="img-fluid" alt="the office sign">
+                <div class="container office-sign">
+                    <img src="assets/images/the-office-sign.png" class="img-fluid" alt="the office sign">
+                    <p>Trivia <br> Game!</p>
+                </div>
+                
                 <div class="start-game">
                     <button id="start-button">Click to Start Game!</button> 
                 </div>
@@ -19,7 +24,10 @@
                     <div class="col-sm-12 questions">
                     </div>
                 </div>
-                
+                <div class="win-lose-image">
+                    <img src="assets/images/Kevin-Malone-win.jpg" id="win-image" class="img-fluid" alt="kevin smiling with money">
+                    <img src="assets/images/kevin-malone-lose.png" id="lose-image" class="img-fluid" alt="kevin dropping his chili">
+                </div>
             </div>
         </div>
     </div>
