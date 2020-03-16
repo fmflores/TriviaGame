@@ -6,7 +6,9 @@
 
 body {
     background-image: url("../images/theofficebg.jpg");
-    background-size: cover;
+    background-repeat: no-repeat;
+  background-size: 100% 125%;
+    /* background-size: cover; */
 }
 #div-start {
     background-image: url("../images/blackboard.jpg");
@@ -24,7 +26,33 @@ body {
 }
 
 #start-button {
-    padding: 0 1.5% 0 1.5%;
+    padding: 1% 1.5% 1% 1.5%;
     font-size: 1em;
+    margin-top: 25%;
 }
 
+.questions {
+    margin-top: 25%;
+}
+
+#clock {
+    width: 4.5%;
+    height: 9%;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    right: 18.5%;
+    top: 22.9%;
+    text-align: center;
+    line-height: 325%;
+    font-size: larger;
+}
+
+#qTitle {
+
+}
+
+.answerBtn {
+    margin: 1%;
+    padding: 1%;
+}

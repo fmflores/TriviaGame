@@ -1,20 +1,32 @@
 //global variables
 var questionsArr = [{
-    q: 'What are three building blocks of modern websites?',
-    c: ['CSS, Java, C++', 'HTML, CSS, JavaScript', 'Filler'],
+    q: "What is the nickname/alterego Michael Scott gives his convict character?",
+    c: ['Convict Scott', 'Johnny Rotten', 'Prison Mike'],
+    a: 2
+},{
+    q: "What was the name of Jim's sports company he founded with his college roommate?",
+    c: ['Klutch Sports', 'Athlead/Athleap', 'Entertainment 720'],
     a: 1
 },{
-    q: "What is Jim's favorite sport?",
-    c: ['Basketball', 'Soccer', 'Bowling'],
+    q: "What city is The Office located in?",
+    c: ["Los Angeles, CA", "Boston, MA", "Scranton, PA"],
+    a: 2
+},{
+    q: "What is Pam's ex-fiance's name?",
+    c: ["Roy", "Randall", "Darryl"],
     a: 0
 },{
-    q: "Where is The Office located in?",
-    c: ["Los Angeles", "Boston", "Scranton"],
-    a: 2
+    q: "What is the name of Dwight's farm?",
+    c: ["Schrute Farms", "Dwight's Farm", "Dwight & Mose Farms"],
+    a: 0
+}, {
+    q: "How does Darryl break his leg in The Office?",
+    c: ["Playing Basketball", "Falls off a ladder", "Skateboarding"],
+    a: 1
 }
 ];
 let counter = 0;
-let time = 60;
+let time = 45;
 let right = 0;
 let wrong = 0;
 let timer;
