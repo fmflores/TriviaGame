@@ -1,19 +1,19 @@
 //global variables
 var questionsArr = [{
-    q: "What is the nickname/alterego Michael Scott gives his convict character?",
+    q: "What is Michael Scott's convict alterego/character?",
     c: ['Convict Scott', 'Johnny Rotten', 'Prison Mike'],
     a: 2
 },{
-    q: "What was the name of Jim's sports company he founded with his college roommate?",
-    c: ['Klutch Sports', 'Athlead/Athleap', 'Entertainment 720'],
+    q: "What is the name of Kevin's Police cover band?",
+    c: ['The Scrantones', 'Scrantonicity', 'Here Comes Treble'],
     a: 1
 },{
     q: "What city is The Office located in?",
     c: ["Los Angeles, CA", "Boston, MA", "Scranton, PA"],
     a: 2
 },{
-    q: "What is Pam's ex-fiance's name?",
-    c: ["Roy", "Randall", "Darryl"],
+    q: "What nickname does Andy give to Jim?",
+    c: ["Big Tuna", "Nard Dog", "Dwigt"],
     a: 0
 },{
     q: "What is the name of Dwight's farm?",
@@ -23,16 +23,17 @@ var questionsArr = [{
     q: "How does Darryl break his leg in The Office?",
     c: ["Playing Basketball", "Falls off a ladder", "Skateboarding"],
     a: 1
+},{
+    q: "Where do Pam and Jim get married?",
+    c: ["Niagara Falls", "Puerto Rico", "Connecticut"],
+    a: 0
 }
 ];
 let counter = 0;
-let time = 45;
+let time = 60;
 let right = 0;
 let wrong = 0;
 let timer;
-
-
-//game logic ie. handlewin hadlelose timer etc.
 
 //init game function
 
